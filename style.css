@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;0,900;1,600&family=Titillium+Web&display=swap');
+ 
+*{box-sizing: border-box;}
+ 
+body{
+    background-image: url(hogw.jpg);
+   font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    min-height:100vh;
+}
+.quiz-container{
+    background-color: rgb(238, 228, 197);
+    opacity: 0.85;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+    width:600px;
+    max-width: 100%;
+    margin:0 auto 0 auto;
+ 
+}
+.quiz-header{
+    padding:4rem;
+}
+h2{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+ul li{
+    font-size: 1.1rem;
+    margin:1rem 0;
+    font-family: arial,sans-serif;
+   
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: rgb(218, 205, 143);
+    color: black;
+    cursor: pointer;
+    border:none;
+    font-size: 1.2rem;
+    display:block;
+    font-family: inherit;
+    width: 100%;
+    padding:2rem;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+ 
+}
+button:hover{
+    background-color: rgb(218, 178, 127);
+ 
+}
